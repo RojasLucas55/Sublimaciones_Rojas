@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="mediaQueries.css">
+    <title>LPSublimaciones</title>
+</head>
+
+<body>
+    <!--LOGO mas Barra de navegacion-->
+    <header class="header">
+        <nav class="navbar">
+            <img src="img/logo2.jpg" class="logo" alt="LPSublimaciones">
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-bar">
+                <i class="fas fa-bars" id="menu-bar"></i>
+            </div>
+            <div class="shop">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="formulario">
+        <div class="action">Completa los campos con la información solicitada y te contactaremos a la brevedad
+        </div>
+        <form action="action_page.php">
+
+            <div class="campos">
+                <legend>Información Personal</legend>
+
+                <label> Nombre:</label>
+                <input type="text" name placeholder="Ingresa tu Nombre">
+
+                <label> Apellido:</label>
+                <input type="text" name placeholder="Ingresa tu Apellido">
+
+                <!-- <label> Género: </label>
+
+                        <label>Mujer</label>
+                            <input type="radio" name="genero" value="Mujer"/>
+                        <label>Hombre</label>
+                            <input type="radio" name="genero" value="Hombre"/> -->
+
+                <label> Teléfono:</label>
+                <input type="tel" name placeholder=" Ingresa tu numero">
+                <label>Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu Email">
+                <label for="proveedor">Es proveedor?</label>
+                <select name="proveedor">
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+                <label for="motivo">Motivo de la consulta:</label>
+                <textarea name="mensaje" rows="10"></textarea>
+                <input class="button" type="submit">
+                <input class="button" type="reset">
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="info">
+            <h4 class="datos">Acerca de LPSublimaciones</h4>
+            <p class="lorem">Novedades</p>
+            <p class="lorem">Empleo</p>
+            <p class="lorem">Ubicación</p>
+        </div>
+
+        <div class="followUs">
+            <h4 class="social"> Seguinos</h4>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
