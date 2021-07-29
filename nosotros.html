@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
     <!--Estilos CSS y MediaQueries-->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="mediaQueries.css">
     <title>LPSublimaciones</title>
 </head>
+
 <body>
     <!--LOGO mas Barra de navegacion-->
     <header class="header">
         <nav class="navbar">
-            <img src="img/logo2.jpg" class="logo" alt="LPSublimaciones">
-            <ul class="menu" id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <!--Bloque 1-->
+            <img class="navbar__logo" src="img/logo2.jpg" alt="LPSublimaciones">
+            <ul class="navbar__menu" id="menu">
+                <li><a href="index.html" class="navbar__enlace">Home</a></li>
+                <li><a href="nosotros.html" class="navbar__enlace">Nosotros</a></li>
+                <li><a href="productos.html" class="navbar__enlace">Productos</a></li>
+                <li><a href="contacto.html" class="navbar__enlace">Contacto</a></li>
             </ul>
             <div class="menu-bar">
-                <i class="fas fa-bars" id="menu-bar"></i>
+                <!--Bloque 2-->
+                <i class="menu-bar__boton fas fa-bars" id="menu-bar"></i>
             </div>
             <div class="shop">
-                <i class="fas fa-shopping-cart"></i>
+                <!--Bloque 3-->
+                <i class="shop__boton fas fa-shopping-cart"></i>
             </div>
         </nav>
     </header>
-
+    <div class="contenedorNosotros">
+        <div class="nosotros">
+            <h2>Quienes Somos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloremque molestias eligendi
+                voluptatibus iure inventore, totam necessitatibus enim et deserunt quasi minima ipsam ex sapiente quidem
+                soluta cupiditate nesciunt quaerat!
+                Corporis temporibus doloremque, incidunt exercitationem culpa, assumenda quidem neque inventore quos
+                sapiente, non repellendus reiciendis! Dolore tempore voluptas aliquid inventore mollitia. Placeat,
+                voluptatibus maxime illo adipisci veritatis ipsum consequatur sint.</p>
+                <img src="img/logo2.jpg" alt="">
+        </div>
+        <div class="objetivos">
+            <h2>Nuestros objetivos</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt rerum qui reiciendis quae distinctio
+                reprehenderit repellendus sit aliquid, perspiciatis sapiente corporis tempore et eum accusamus obcaecati
+                aliquam dolorem nostrum? Vel?
+                Facere facilis tempora maxime delectus. Sequi ipsum repellat quo vel. Voluptatem minima expedita placeat
+                ipsam deleniti at adipisci dignissimos harum commodi fugiat consectetur ad, ab tempore ducimus
+                temporibus modi quisquam.
+                Incidunt aperiam veniam facilis perspiciatis itaque perferendis eos quo, error nemo. Tempore temporibus
+                a quae nesciunt soluta nostrum mollitia, accusantium ipsam magni similique unde facere alias tenetur
+                sunt. A, ullam.</p>
+                <img src="img/mundo.jpg" alt="">
+        </div>
+    </div>
     <footer class="footer">
         <div class="info">
-                <h4 class="datos">Acerca de LPSublimaciones</h4>
-                <p class="lorem">Novedades</p>
-                <p class="lorem">Empleo</p>
-                <p class="lorem">Ubicación</p>
+            <h4 class="datos">Acerca de LPSublimaciones</h4>
+            <p class="lorem">Novedades</p>
+            <p class="lorem">Empleo</p>
+            <p class="lorem">Ubicación</p>
         </div>
-    
+
         <div class="followUs">
-                <h4 class="social"> Seguinos</h4>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-whatsapp"></i>
+            <h4 class="social"> Seguinos</h4>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
         </div>
-    
-    
+
+
     </footer>
-<!--JS Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

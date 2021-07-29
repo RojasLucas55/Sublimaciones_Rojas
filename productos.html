@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
     <!--Estilos CSSy MediaQueries-->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="mediaQueries.css">
     <title>LPSublimaciones</title>
 </head>
+
 <body>
     <!--LOGO mas Barra de navegacion-->
     <header class="header">
         <nav class="navbar">
-            <img src="img/logo2.jpg" class="logo" alt="LPSublimaciones">
-            <ul class="menu" id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <!--Bloque 1-->
+            <img class="navbar__logo" src="img/logo2.jpg" alt="LPSublimaciones">
+            <ul class="navbar__menu" id="menu">
+                <li><a href="index.html" class="navbar__enlace">Home</a></li>
+                <li><a href="nosotros.html" class="navbar__enlace">Nosotros</a></li>
+                <li><a href="productos.html" class="navbar__enlace">Productos</a></li>
+                <li><a href="contacto.html" class="navbar__enlace">Contacto</a></li>
             </ul>
             <div class="menu-bar">
-                <i class="fas fa-bars" id="menu-bar"></i>
+                <!--Bloque 2-->
+                <i class="menu-bar__boton fas fa-bars" id="menu-bar"></i>
             </div>
             <div class="shop">
-                <i class="fas fa-shopping-cart"></i>
+                <!--Bloque 3-->
+                <i class="shop__boton fas fa-shopping-cart"></i>
             </div>
         </nav>
     </header>
 
-        <div class="tituloGaleria">
-            <h4>Nuestros Productos</h4>
-        </div>
+    <div class="tituloGaleria">
+        <h4>Nuestros Productos</h4>
+    </div>
 
     <section class="row">
-        
+
         <div class="column">
             <img src="img/remes1.jpg" alt="remera">
             <img src="img/remes2.jpg" alt="remera">
@@ -78,22 +86,25 @@
 
     <footer class="footer">
         <div class="info">
-                <h4 class="datos">Acerca de LPSublimaciones</h4>
-                <p class="lorem">Novedades</p>
-                <p class="lorem">Empleo</p>
-                <p class="lorem">Ubicación</p>
+            <h4 class="datos">Acerca de LPSublimaciones</h4>
+            <p class="lorem">Novedades</p>
+            <p class="lorem">Empleo</p>
+            <p class="lorem">Ubicación</p>
         </div>
-    
+
         <div class="followUs">
-                <h4 class="social"> Seguinos</h4>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-whatsapp"></i>
+            <h4 class="social"> Seguinos</h4>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
         </div>
-    
-    
+
+
     </footer>
-<!--JS Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
