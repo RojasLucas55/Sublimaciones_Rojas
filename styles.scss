@@ -1,0 +1,22 @@
+
+
+
+/*Botones para agregar productos al carrito en "PRODUCTOS"*/
+
+@mixin boton {
+    background-color: rgb(34, 34, 36);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    position: absolute;
+    left: 100px;
+    &:hover{
+        background-color: rgb(249, 249, 255);
+    }
+       
+}
+
+.boton{
+    @include boton
+}
