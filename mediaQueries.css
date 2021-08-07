@@ -1,30 +1,17 @@
-@media only screen and (max-width: 640px) {
-    .navbar {
-        position: relative;
-    }
-    .navbar .shop {
-        display: none;
-    }
-    .navbar .menu-bar{
-        display: block;
-        font-size: 2em;
-        cursor: pointer;
-    }
-    .main{
-        font-size: 0.8em;
-    }
-    .navbar .menu{
-        display: none;
-    }
-
-    .column{
-        flex: 100%;
-    }
-
-}
-
-@media (max-width: 800px){
-    .column{
-        flex: 50%;
+@media screen and (max-width: 1000px) {
+    .d-block{
+        height: 25em;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .d-block{
+        height: 30em;
+    }
+
+    .logoNosotros{
+        width:10em;
+        height:10em;
+    }
+}
+

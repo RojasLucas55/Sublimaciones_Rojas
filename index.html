@@ -18,32 +18,44 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!--Estilos CSS y mediaQueries-->
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="mediaQueries.css">
     <title>LPSublimaciones</title>
 </head>
 
 <body>
-    <!--LOGO mas Barra de navegacion-->
-    <header class="header">
-        <nav class="navbar">
-            <!--Bloque 1-->
-            <img class="navbar__logo" src="img/logo2.jpg" alt="LPSublimaciones">
-            <ul class="navbar__menu" id="menu">
-                <li><a href="index.html" class="navbar__enlace">Home</a></li>
-                <li><a href="nosotros.html" class="navbar__enlace">Nosotros</a></li>
-                <li><a href="productos.html" class="navbar__enlace">Productos</a></li>
-                <li><a href="contacto.html" class="navbar__enlace">Contacto</a></li>
-            </ul>
-            <div class="menu-bar">
-                <!--Bloque 2-->
-                <i class="menu-bar__boton fas fa-bars" id="menu-bar"></i>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo2.jpg" alt="LPSublimaciones" width="60" height="60"
+                    class="d-inline-block align-text-center"><span class="logoTitle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                </ul>
             </div>
-            <div class="shop">
-                <!--Bloque 3-->
-                <i class="shop__boton fas fa-shopping-cart"></i>
-            </div>
-        </nav>
+        </div>
+    </nav>
     </header>
     <!-- Banner o Portada principal con Frase-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -69,13 +81,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
-    <!--<main class="main">
-        <div class="mainContent">
-            <p>"Algunos buscan un mundo mas bonito, otros lo crean."</p>
-            <h3>Anonimous</h3>
-        </div>
-    </main>-->
 
     <!-- Tarjetas con animacion / Categorias -->
 

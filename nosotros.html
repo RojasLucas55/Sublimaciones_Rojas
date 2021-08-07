@@ -15,6 +15,7 @@
         rel="stylesheet">
     <!--Estilos CSS y MediaQueries-->
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -23,26 +24,37 @@
 </head>
 
 <body>
-    <!--LOGO mas Barra de navegacion-->
-    <header class="header">
-        <nav class="navbar">
-            <!--Bloque 1-->
-            <img class="navbar__logo" src="img/logo2.jpg" alt="LPSublimaciones">
-            <ul class="navbar__menu" id="menu">
-                <li><a href="index.html" class="navbar__enlace">Home</a></li>
-                <li><a href="nosotros.html" class="navbar__enlace">Nosotros</a></li>
-                <li><a href="productos.html" class="navbar__enlace">Productos</a></li>
-                <li><a href="contacto.html" class="navbar__enlace">Contacto</a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo2.jpg" alt="LPSublimaciones" width="60" height="60"
+                class="d-inline-block align-text-center"><span class="logoTitle">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faqs.html">FAQs</a>
+                </li>
             </ul>
-            <div class="menu-bar">
-                <!--Bloque 2-->
-                <i class="menu-bar__boton fas fa-bars" id="menu-bar"></i>
-            </div>
-            <div class="shop">
-                <!--Bloque 3-->
-                <i class="shop__boton fas fa-shopping-cart"></i>
-            </div>
-        </nav>
+        </div>
+    </div>
+</nav>
     </header>
     <div class="contenedorNosotros">
         <div class="nosotros">
@@ -53,7 +65,7 @@
                 Corporis temporibus doloremque, incidunt exercitationem culpa, assumenda quidem neque inventore quos
                 sapiente, non repellendus reiciendis! Dolore tempore voluptas aliquid inventore mollitia. Placeat,
                 voluptatibus maxime illo adipisci veritatis ipsum consequatur sint.</p>
-                <img src="img/logo2.jpg" alt="">
+                <img class="logoNosotros" src="img/logo2.jpg" alt="">
         </div>
         <div class="objetivos">
             <h2>Nuestros objetivos</h2>

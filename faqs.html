@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Google FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
         rel="stylesheet">
-    <!--Estilos CSS y MediaQueries + Font Awesome(Icons)-->
+    <!--Font Awesome/ icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Estilos CSS y mediaQueries-->
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="mediaQueries.css">
     <title>LPSublimaciones</title>
+    <!--Metas Description y Keywords-->
+    <meta name="description" content="Las mejores remeras personalizadas, las vas a encontrar en LPSublimaciones,encontra lo que buscas o lo creamos juntos">
+    <meta name="keywords" content="remeras personalizadas, remeras, remeras harry potter, remeras vogue, remeras marvel, remeras avengers, tazas, tazas harry potter,fundas, fundas harry potter,">
 </head>
 
 <body>
@@ -56,39 +60,17 @@
         </div>
     </nav>
     </header>
-    <!--Campos a completar del Formulario-->
-    <div class="container-md">
-        <div class="tituloForm">Completa los campos con la información solicitada y te contactaremos a la brevedad
-        </div>
-        <div class="mb-3 col-4">
-            <label for="Nombre" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
-        </div>
-        <div class="mb-3 col-4">
-            <label for="Apellido" class="form-label">Apellido:</label>
-            <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
-        </div>
-        <div class="mb-3 col-4">
-            <label for="Telefono" class="form-label">Número de Telefono:</label>
-            <input type="tel" class="form-control" id="Telefono" placeholder="Sin 0 y sin 15">
-        </div>
-        <div class="mb-3 col-4">
-            <label for="Email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="Email" placeholder="aguante@bootstrap.com">
-        </div>
-        <div class="mb-3 col-4">
-            <label for="Comentario/Consulta" class="form-label">Motivo de Consulta:</label>
-            <textarea class="form-control" id="Consulta" rows="3"></textarea>
-        </div>
-        <input class="btn btn-primary" type="submit" value="Enviar">
-        <input class="btn btn-secondary" type="reset" value="Borrar">
+
+    <!--Preguntas Frecuentes-->
+
+    <div class="containerFaqs">
+        <h1 class="faqsTitle">Preguntas Frecuentes</h1>
     </div>
-    <div class="ubicacion">
-        <iframe class="ubicacion"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.4432482180273!2d2.342975589010027!3d48.86037474588243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc66ee857af%3A0x7617962602b9f402!2sUrban%20Outfitters!5e0!3m2!1ses-419!2sar!4v1628374034721!5m2!1ses-419!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <!--Footer-->
+
+    <input id="page-search" class="form-control" type="text" placeholder="Buscar todas las preguntas y respuestas">
+    <button>Buscar</button>
+
+    <!-- Footer con  informacion y redes sociales-->
     <footer class="footer">
         <div class="info">
             <h4 class="datos">Acerca de LPSublimaciones</h4>
@@ -104,6 +86,9 @@
             <i class="fab fa-whatsapp"></i>
         </div>
 
+        <div class="subscribe">
+
+        </div>
 
     </footer>
     <!--JS Bootstrap-->

@@ -1,22 +1,61 @@
+///////////////////
+//Colores//////////
+///////////////////
+$principal:black;
+
+$primary: $principal;
+$secondary: rgb(83, 83, 83);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+);
+
+///////////////////
+//Navbar///////////
+///////////////////
+
+.navbar-nav{
+    font-size: 1.2em;
+ 
+}
 
 
 
-/*Botones para agregar productos al carrito en "PRODUCTOS"*/
+////////////////////
+//Productos/////////
+////////////////////
 
-@mixin boton {
-    background-color: rgb(34, 34, 36);
-    color: black;
-    padding: 10px 15px;
-    border-radius: 50px;
-    font-weight: 600;
-    position: absolute;
-    left: 100px;
-    &:hover{
-        background-color: rgb(249, 249, 255);
+.productsCards{
+    width:100%;
+    justify-content: center;
+
+        .card{
+            padding-bottom: 2em;
+        }
+}
+.tituloGaleria{
+    h4{
+        padding: 1em;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
     }
-       
 }
 
-.boton{
-    @include boton
+
+///////////////////
+//Contacto/////////
+///////////////////
+
+.ubicacion{
+    display:grid;
+    margin:6em;
 }
+
+
+//////////////////
+//Nosotros////////
+//////////////////
+
+
+@import "../Sublimaciones_Rojas2/node_modules/bootstrap/scss/bootstrap.scss";
