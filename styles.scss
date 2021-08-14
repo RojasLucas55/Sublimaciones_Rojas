@@ -21,17 +21,94 @@ $theme-colors: (
 }
 
 
+////////////////////
+//Home//////////////
+////////////////////
+
+.carousel-item{
+    height: 40rem;
+}
+
+
+////////////////////
+//Footer////////////
+////////////////////
+
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height:10rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+        
+            .footer__info{
+                font-size: 1em;
+
+                .footer__datos{
+                    justify-content:center;
+                    font-size: 1em;
+                    font-weight: 300;
+                }
+
+                .footer__links{
+                    list-style:none;
+                    text-decoration:none;
+                    cursor: pointer;
+                    padding: 0.3em;
+                    color:white;
+                }
+            }
+}
+.follow__social{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+i{
+    flex-direction:row;
+    font-size:1.5em;
+    cursor: pointer;
+    padding: 0.3em;
+}
+
+
+.contenedor__Ul{    
+    display:flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    list-style:none;
+    text-decoration:none;            
+}
+
+.contenedor__A{
+    color:white;
+    text-decoration:none;
+    padding:1em;
+}
+
+.contenedor__A:hover{
+    height: 20px;
+    background:gray;
+    border-radius:50px;
+}
+
+
+
 
 ////////////////////
 //Productos/////////
 ////////////////////
 
 .productsCards{
-    width:100%;
-    justify-content: center;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
         .card{
-            padding-bottom: 2em;
+            margin: 6px;
         }
 }
 .tituloGaleria{
@@ -47,11 +124,25 @@ $theme-colors: (
 //Contacto/////////
 ///////////////////
 
-.ubicacion{
-    display:grid;
-    margin:6em;
+.container-md{
+    padding: 1em;
+    
 }
 
+.form-label{
+    width:100%
+}
+.grid{
+    margin-left:2em;
+    display:flex;
+    
+}
+
+.grid-ubicacion{
+    display:flex;
+    padding:2rem;
+    
+}
 
 //////////////////
 //Nosotros////////

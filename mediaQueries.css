@@ -1,17 +1,17 @@
+@media screen and (max-width: 1200px) {
+}
+
+
 @media screen and (max-width: 1000px) {
-    .d-block{
-        height: 25em;
-    }
 }
 
 @media screen and (max-width: 900px) {
-    .d-block{
-        height: 30em;
-    }
 
+    .carousel-item{
+        height: 20rem;
+    }
     .logoNosotros{
         width:10em;
         height:10em;
     }
 }
-

@@ -2,15 +2,102 @@
   font-size: 1.2em;
 }
 
+.carousel-item {
+  height: 40rem;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 10rem;
+  background-color: black;
+  color: white;
+}
+
+.contenedor .footer__info {
+  font-size: 1em;
+}
+
+.contenedor .footer__info .footer__datos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.contenedor .footer__info .footer__links {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.3em;
+  color: white;
+}
+
+.follow__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+i {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 0.3em;
+}
+
+.contenedor__Ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.contenedor__A {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.contenedor__A:hover {
+  height: 20px;
+  background: gray;
+  border-radius: 50px;
+}
+
 .productsCards {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .productsCards .card {
-  padding-bottom: 2em;
+  margin: 6px;
 }
 
 .tituloGaleria h4, .tituloGaleria .h4 {
@@ -19,10 +106,26 @@
   font-size: 30px;
 }
 
-.ubicacion {
-  display: -ms-grid;
-  display: grid;
-  margin: 6em;
+.container-md {
+  padding: 1em;
+}
+
+.form-label {
+  width: 100%;
+}
+
+.grid {
+  margin-left: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
 }
 
 /*!
