@@ -1,3 +1,9 @@
+.navbar {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), to(gray));
+  background: linear-gradient(to right, black 50%, gray);
+  background-color: rgba(0, 0, 0, 0.932);
+}
+
 .navbar-nav {
   font-size: 1.2em;
 }
@@ -148,6 +154,33 @@
   display: -ms-flexbox;
   display: flex;
   padding: 2rem;
+}
+
+.contenedorNosotros {
+  padding: 2em;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.contenedorNosotros .nosotros p {
+  font-style: italic;
+}
+
+.animate__fadeInLeft {
+  font-size: 3em;
+}
+
+.animate__fadeInRight {
+  font-size: 1.5em;
+}
+
+.objetivos {
+  padding: 2em;
+}
+
+.objetivos p {
+  font-style: italic;
 }
 
 .containerFaqs {

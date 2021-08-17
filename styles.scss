@@ -15,6 +15,11 @@ $theme-colors: (
 //Navbar///////////
 ///////////////////
 
+.navbar{
+    background: linear-gradient( to right, black 50%, gray);
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
 .navbar-nav{
     font-size: 1.2em;
  
@@ -168,7 +173,33 @@ $theme-colors: (
 //Nosotros////////
 //////////////////
 
+.contenedorNosotros{
+    padding: 2em;
+    margin: auto;
+    text-align: center;
+    width: 80%;
 
+    .nosotros{
+        p{
+            font-style:italic;
+        }
+    }
+}
+
+.animate__fadeInLeft{
+    font-size: 3em;
+}
+.animate__fadeInRight{
+    font-size: 1.5em;
+}
+
+.objetivos{
+    padding: 2em;
+
+        p{
+            font-style: italic;
+        }
+}
 
 
 
