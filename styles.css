@@ -2,8 +2,14 @@
   font-size: 1.2em;
 }
 
+.navbar-brand img {
+  width: 80px;
+  height: 80px;
+  margin-left: 2em;
+}
+
 .carousel-item {
-  height: 40rem;
+  height: 32rem;
 }
 
 .contenedor {
@@ -15,7 +21,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  height: 10rem;
+  height: 30rem;
   background-color: black;
   color: white;
 }
@@ -25,40 +31,52 @@
 }
 
 .contenedor .footer__info .footer__datos {
+  padding: 1em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 300;
 }
 
 .contenedor .footer__info .footer__links {
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 10px;
   list-style: none;
   text-decoration: none;
-  cursor: pointer;
-  padding: 0.3em;
   color: white;
 }
 
-.follow__social {
+.contenedor .footer__info .footer__links:hover {
+  height: 10px;
+  background: gray;
+  border-radius: 50px;
+}
+
+.contenedorFollow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
-  font-size: 1.5em;
-}
-
-i {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 1.5em;
+}
+
+.contenedorFollow i {
+  font-size: 40px;
+  margin: 1.2em;
+}
+
+.contenedorFollow i:hover {
   cursor: pointer;
-  padding: 0.3em;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
 }
 
 .contenedor__Ul {
@@ -76,16 +94,20 @@ i {
 .contenedor__A {
   color: white;
   text-decoration: none;
-  padding: 1em;
+  margin: 0.5em;
+  padding: 0.5em;
 }
 
 .contenedor__A:hover {
-  height: 20px;
+  height: 10px;
   background: gray;
   border-radius: 50px;
 }
 
 .productsCards {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +119,7 @@ i {
 }
 
 .productsCards .card {
-  margin: 6px;
+  margin: 5px;
 }
 
 .tituloGaleria h4, .tituloGaleria .h4 {
@@ -126,6 +148,58 @@ i {
   display: -ms-flexbox;
   display: flex;
   padding: 2rem;
+}
+
+.containerFaqs {
+  margin: 2em;
+  padding: 2em;
+}
+
+.searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  margin: 3em;
+}
+
+.searchBar .faqsBuscar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.faqsColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  max-width: 1200px;
+}
+
+.containerPreguntas {
+  width: 100%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 3em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.containerPreguntas .preguntasFrecuentes {
+  padding: 10px;
+}
+
+.containerPreguntas a {
+  text-decoration: none;
+}
+
+.containerPreguntas a:hover {
+  color: gray;
+  text-decoration: underline;
 }
 
 /*!

@@ -20,13 +20,20 @@ $theme-colors: (
  
 }
 
+.navbar-brand{
+    img{
+        width: 80px;
+        height:80px;
+        margin-left:2em;
+    }
+}
 
 ////////////////////
 //Home//////////////
 ////////////////////
 
 .carousel-item{
-    height: 40rem;
+    height: 32rem;
 }
 
 
@@ -38,40 +45,49 @@ $theme-colors: (
     display:flex;
     flex-direction: column;
     text-align: center;
-    height:10rem;
+    height: 30rem;
     background-color: rgb(0, 0, 0);
     color: white;
         
             .footer__info{
                 font-size: 1em;
+                    .footer__datos{
+                        padding:1em;
+                        justify-content:center;
+                        font-size: 2em;
+                        font-weight: 300;
+                    }
 
-                .footer__datos{
-                    justify-content:center;
-                    font-size: 1em;
-                    font-weight: 300;
-                }
+                    .footer__links{
+                        font-size:1.2em;
+                        margin:10px;
+                        padding:10px;
+                        list-style:none;
+                        text-decoration:none;
+                        color:white;
+                    }
 
-                .footer__links{
-                    list-style:none;
-                    text-decoration:none;
-                    cursor: pointer;
-                    padding: 0.3em;
-                    color:white;
-                }
+                    .footer__links:hover{
+                        height: 10px;
+                        background:gray;
+                        border-radius:50px;
+                    }
             }
 }
-.follow__social{
+.contenedorFollow{
     display: flex;
     justify-content:center;
-    padding: 20px;
-    font-size: 1.5em;
-}
-
-i{
     flex-direction:row;
-    font-size:1.5em;
-    cursor: pointer;
-    padding: 0.3em;
+        i{
+            font-size:40px;
+            margin:1.2em;
+        }
+        i:hover{
+            cursor:pointer;
+            background-color: rgb(255, 255, 255);
+            color:black;
+            border-radius: 20px;
+        }
 }
 
 
@@ -86,11 +102,12 @@ i{
 .contenedor__A{
     color:white;
     text-decoration:none;
-    padding:1em;
+    margin:0.5em;
+    padding:0.5em;
 }
 
 .contenedor__A:hover{
-    height: 20px;
+    height: 10px;
     background:gray;
     border-radius:50px;
 }
@@ -103,12 +120,15 @@ i{
 ////////////////////
 
 .productsCards{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     
         .card{
-            margin: 6px;
+            margin: 5px;
         }
 }
 .tituloGaleria{
@@ -147,6 +167,64 @@ i{
 //////////////////
 //Nosotros////////
 //////////////////
+
+
+
+
+
+
+//////////////////
+//FAQs////////////
+//////////////////
+
+.containerFaqs{
+    margin:2em;
+    padding:2em;
+    
+}
+
+.searchBar{
+    display: flex;
+    padding: 1em;
+    margin:3em;
+        
+        .faqsBuscar{
+            background-color: $primary;
+            color: white;
+            padding:10px;
+            margin-left:5px;
+            border-radius: 5px;
+
+        }
+}
+
+.faqsColumn{
+    display:flex;
+    height:50vh;
+    max-width:1200px;
+}
+
+.containerPreguntas{
+    width:100%;
+    justify-content:left;
+    margin-left:3em;
+    font-size: 1.2em;
+    font-weight: bold;
+
+        .preguntasFrecuentes{
+            padding:10px;
+        }
+
+        a{
+            text-decoration:none;
+        }
+
+        a:hover{
+            color:gray;
+            text-decoration: underline;
+        }
+}
+
 
 
 @import "../Sublimaciones_Rojas2/node_modules/bootstrap/scss/bootstrap.scss";

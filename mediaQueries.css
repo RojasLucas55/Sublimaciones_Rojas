@@ -1,8 +1,14 @@
 @media screen and (max-width: 1200px) {
+    .carousel-item{
+        height: 28rem;
+    }
 }
 
 
 @media screen and (max-width: 1000px) {
+    .carousel-item{
+        height: 22rem;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -14,4 +20,27 @@
         width:10em;
         height:10em;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    .carousel-item{
+        height: 12rem;
+    }
+
+@media screen and (max-width: 400px){
+
+    i{
+        font-size:40px;
+        margin:0em;
+    }
+
+    .contenedor__A{
+        display:flex;
+        flex-wrap: wrap;
+        margin:0.2em;
+        padding:0.1em;
+    }
+
+
 }
