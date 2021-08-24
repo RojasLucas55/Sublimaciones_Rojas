@@ -135,25 +135,18 @@
 }
 
 .container-md {
-  padding: 1em;
-}
-
-.form-label {
-  width: 100%;
-}
-
-.grid {
-  margin-left: 2em;
+  margin: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.grid-ubicacion {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .contenedorNosotros {

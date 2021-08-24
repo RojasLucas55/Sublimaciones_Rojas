@@ -150,25 +150,13 @@ $theme-colors: (
 ///////////////////
 
 .container-md{
-    padding: 1em;
-    
-}
-
-.form-label{
-    width:100%
-}
-.grid{
-    margin-left:2em;
+    margin:30px;
     display:flex;
-    
-}
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
 
-.grid-ubicacion{
-    display:flex;
-    padding:2rem;
-    
 }
-
 //////////////////
 //Nosotros////////
 //////////////////

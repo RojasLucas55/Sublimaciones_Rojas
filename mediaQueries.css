@@ -13,6 +13,14 @@
 
 @media screen and (max-width: 900px) {
 
+    .faqsColumn{
+        height: 100vh;
+    }
+
+    .preguntasFrecuentes{
+        font-size: 16px;
+        margin: 0.5em;
+    }
     .carousel-item{
         height: 20rem;
     }
