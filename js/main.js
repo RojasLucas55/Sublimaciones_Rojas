@@ -1,18 +1,8 @@
-/*const suma  = (a,b) => a + b;
+const suma  = (a,b) => a + b;
 const resta = (a,b) => a - b;
 
-
-// Variables con precios de producto y envio
-let precioRemera  = 1300; 
-let precioEnvios = 580;
-let valorTotal = suma(precioRemera, precioEnvios);
-// Solo si el comprador es de GBA se le hace un descuento de $100
-let descuento = prompt( "Es Usted de GBA?");
-if((descuento.toLocaleLowerCase() == "si")){
-    console.log("El total de su compra es de: ", resta(valorTotal, 100));
-}else{
-    console.log("El total de su compra es de: ", valorTotal)
-}
+/*Aqui comienza el simulador de un catalogo y carrito, más la suma del costo de envio y, 
+ademas, un descuento si es de GBA.
 */
 
 alert ("Bienvenido/a a Luxana's Road")
@@ -42,6 +32,18 @@ const catalogo = [
         id: 4,
         nombre: "Cuadros Personalizados",
         precio: 1000,
+    },
+
+    producto5 = {
+        id: 5,
+        nombre: "Fundas para Almohadones",
+        precio: 600,
+    },
+
+    producto6 = {
+        id: 6,
+        nombre: "Gorras tipo Trucker",
+        precio: 800,
     } 
 ];
 
@@ -65,13 +67,20 @@ function calcularTotal(){
     for (let i = 0; i < carrito.length; i++) {
         total = total+carrito[i].precio
     }
-    
-    console.log(total);
-}
 
-alert ("Usted tiene elementos en su carrito, desea conocer el total de su compra? ")
+    console.log(total)
+}
 
 calcularTotal()
 
-console.log(carrito);
+let precioEnvios = 580;
+let valorTotal = suma(total, precioEnvios);
+// Solo si el comprador es de GBA se le hace un descuento de $100
+let descuento = prompt( "Es Usted de GBA?");
+if((descuento.toLocaleLowerCase() == "si")){
+    console.log("El total de su compra es de: ", resta(valorTotal, 100));
+}else{
+    console.log("El total de su compra es de: ", valorTotal)
+}
+
 
