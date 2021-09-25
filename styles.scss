@@ -18,6 +18,7 @@ $theme-colors: (
 .navbar{
     background: linear-gradient( to right, black 50%, gray);
     background-color: rgba(0, 0, 0, 0.932);
+    
 }
 
 .navbar-nav{
@@ -124,6 +125,10 @@ $theme-colors: (
 //Productos/////////
 ////////////////////
 
+.carrito{
+    margin: 30px;
+}
+
 .productsCards{
     width:100%;
     max-width:1200px;
@@ -143,6 +148,14 @@ $theme-colors: (
         font-size: 30px;
     }
 }
+
+//////////////////////
+//Carrito de Compras//
+//////////////////////
+
+
+
+
 
 
 ///////////////////

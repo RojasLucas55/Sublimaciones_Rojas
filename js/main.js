@@ -8,6 +8,10 @@ ademas, un descuento si es de GBA.
 alert ("Bienvenido/a a Luxana's Road")
 let nombreCliente = prompt (" Por favor, ingresa tu nombre para una mejor atención")
 
+//Aca estoy modificando el HTML mediante el DOM, captando el nombre del cliente mediante un prompt y mostrandolo en el HTML.
+const usuario = document.getElementById("userName")
+    usuario.textContent = "Bienvenido " + nombreCliente + ", Que estas buscando?";
+
 const catalogo = [
 
     producto1 = {
