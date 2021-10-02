@@ -125,22 +125,19 @@ $theme-colors: (
 //Productos/////////
 ////////////////////
 
-.carrito{
-    margin: 30px;
+.img-card-top{
+    width:300px;
+    height:300px;
+    display: flex;
 }
 
-.productsCards{
-    width:100%;
-    max-width:1200px;
-    margin:auto;
+.card{
+    width:300px;
+    height:300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
     
-        .card{
-            margin: 5px;
-        }
 }
+
 .tituloGaleria{
     h4{
         padding: 1em;
@@ -148,6 +145,8 @@ $theme-colors: (
         font-size: 30px;
     }
 }
+
+
 
 //////////////////////
 //Carrito de Compras//

@@ -110,26 +110,20 @@
   border-radius: 50px;
 }
 
-.carrito {
-  margin: 30px;
-}
-
-.productsCards {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
+.img-card-top {
+  width: 300px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.productsCards .card {
-  margin: 5px;
+.card {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .tituloGaleria h4, .tituloGaleria .h4 {

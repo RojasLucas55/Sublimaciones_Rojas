@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remeras Personalizadas",
+        "precio": 1300,
+        "imgURL": "img/batmannegra.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Tazas",
+        "precio": 550,
+        "imgURL": "img/tazaHP.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Fundas de Celulares",
+        "precio": 650,
+        "imgURL": "img/fundaHP.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Cuadros Personalizados",
+        "precio": 1000,
+        "imgURL": "img/duh.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Fundas para Almohadones",
+        "precio": 600,
+        "imgURL": "img/guns1.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Gorras tipo Trucker",
+        "precio": 800,
+        "imgURL": "img/jocker.jpg"
+    }
+]
