@@ -125,27 +125,25 @@ $theme-colors: (
 //Productos/////////
 ////////////////////
 
-.img-card-top{
-    width:300px;
-    height:300px;
-    display: flex;
-}
 
-.card{
-    width:300px;
-    height:300px;
-    display: flex;
-    
-}
 
 .tituloGaleria{
     h4{
+        text-align: center;
+        font-size: 30px;
+        font-weight:100;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-shadow: gray;
         padding: 1em;
-        color: rgb(0, 0, 0);
+        color: rgb(230, 19, 19);
         font-size: 30px;
     }
 }
 
+#card-div{
+    width: 1em;
+    height: 3em;
+}
 
 
 //////////////////////
