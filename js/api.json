@@ -1,38 +1,98 @@
 [
     {
         "id": 1,
-        "nombre": "Remeras Personalizadas",
+        "nombre": "Remera: Batman",
         "precio": 1300,
         "imgURL": "img/batmannegra.jpg"
     },
     {
         "id": 2,
-        "nombre": "Tazas",
-        "precio": 550,
-        "imgURL": "img/tazaHP.jpg"
+        "nombre": "Remera: AC/DC",
+        "precio": 1300,
+        "imgURL": "img/acdc1.jpg"
     },
     {
         "id": 3,
-        "nombre": "Fundas de Celulares",
-        "precio": 650,
-        "imgURL": "img/fundaHP.jpg"
+        "nombre": "Remera: Argentina",
+        "precio": 1300,
+        "imgURL": "img/argentina.jpg"
     },
     {
         "id": 4,
-        "nombre": "Cuadros Personalizados",
-        "precio": 1000,
-        "imgURL": "img/duh.jpg"
+        "nombre": "Remera: Billie Eilish",
+        "precio": 1300,
+        "imgURL": "img/billie_eilish1.jpg"
     },
     {
         "id": 5,
-        "nombre": "Fundas para Almohadones",
-        "precio": 600,
-        "imgURL": "img/guns1.jpg"
+        "nombre": "Remera: California",
+        "precio": 1300,
+        "imgURL": "img/california.jpg"
     },
     {
         "id": 6,
-        "nombre": "Gorras tipo Trucker",
-        "precio": 800,
+        "nombre": "Remera: Cara Bonita",
+        "precio": 1300,
+        "imgURL": "img/carabonita.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Remera: China",
+        "precio": 1300,
+        "imgURL": "img/china.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Remera: Colombia",
+        "precio": 1300,
+        "imgURL": "img/colombia.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Remera: Sirenita Duh!",
+        "precio": 1300,
+        "imgURL": "img/duh.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Remera: Fear This",
+        "precio":  1300,
+        "imgURL": "img/fearthis.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Remera: F#ck!",
+        "precio": 1300,
+        "imgURL": "img/fuck.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Remera: Heisenberg",
+        "precio": 1300,
+        "imgURL": "img/heisemberg.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Remera: Jocker",
+        "precio": 1300,
         "imgURL": "img/jocker.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Remera: John Lennon",
+        "precio": 1300,
+        "imgURL": "img/jonhlennon.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Remera: Mexico",
+        "precio": 1300,
+        "imgURL": "img/mexico.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Remera: Metallica",
+        "precio": 1300,
+        "imgURL": "img/metallica.jpg"
     }
 ]

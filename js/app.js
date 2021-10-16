@@ -26,7 +26,6 @@ const fetchData = async () => {
   try {
     const res = await fetch("js/api.json");
     const data = await res.json();
-    // console.log(data)
     impriCards(data);
   } catch (error) {
     console.log(error);

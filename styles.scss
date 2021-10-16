@@ -140,9 +140,27 @@ $theme-colors: (
     }
 }
 
+#cards{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.card{
+    display: flex;
+    width: auto;
+    padding: 220px;
+}
+
 #card-div{
+    margin: 20px;
+    padding: 5px;
     width: 1em;
     height: 3em;
+}
+
+.btn-dark{
+    border:rgb(230, 19, 19);
+    background-color: gray;
 }
 
 
