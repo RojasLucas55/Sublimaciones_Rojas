@@ -1,3 +1,5 @@
+//Comienzo con la declaracion de constantes y templates.
+
 const cards = document.getElementById("cards");
 const items = document.getElementById("items");
 const footer = document.getElementById("footer");
@@ -7,6 +9,7 @@ const templateCarrito = document.getElementById("template-carrito").content;
 const fragment = document.createDocumentFragment();
 let carrito = {};
 
+//Obtencion de la informacion del carrito del localStorage
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
   if (localStorage.getItem("carrito")) {
@@ -22,6 +25,8 @@ cards.addEventListener("click", (e) => {
 items.addEventListener("click", (e) => {
   btnAccion(e);
 });
+
+//En este paso utilizamos el FetchData para obtener de manera asyncronica nuestra api de JSON
 const fetchData = async () => {
   try {
     const res = await fetch("js/api.json");
@@ -31,7 +36,7 @@ const fetchData = async () => {
     console.log(error);
   }
 };
-
+// Aca creamos el template con el cual imprimimos en el DOM nuetras Cards con la informacion: nombre,precio,img,id.
 const impriCards = (data) => {
   data.forEach((producto) => {
     templateCard.querySelector("h5").textContent = producto.nombre;
@@ -43,7 +48,7 @@ const impriCards = (data) => {
   });
   cards.appendChild(fragment);
 };
-
+//Creamos las constantes y funciones para añadir el/los productos al carrito
 const addCarrito = (e) => {
   if (e.target.classList.contains("btn-dark")) {
     setCarrito(e.target.parentElement);
@@ -66,6 +71,7 @@ const setCarrito = (objeto) => {
   pintarCarrito();
 };
 
+//Aca declaramos las constantes con las cuales pintamos nuestro carrito
 const pintarCarrito = () => {
   items.innerHTML = "";
   Object.values(carrito).forEach((producto) => {
@@ -86,7 +92,7 @@ const pintarCarrito = () => {
 
   localStorage.setItem("carrito", JSON.stringify(carrito));
 };
-
+//Aca declaramos la constante con la cual interactuamos con el carrito y donde se realizan las operaciones con los valores del mismo.
 const pintarFooter = () => {
   footer.innerHTML = "";
   if (Object.keys(carrito).length === 0) {
